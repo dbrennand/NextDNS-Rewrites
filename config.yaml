@@ -1,0 +1,11 @@
+# NextDNS Rewrites Configuration
+# Note: API key should be set via NEXTDNS_API_KEY environment variable
+profile_name: "Main"
+
+rewrites:
+  # A record example
+  - name: "example.com"
+    content: "1.1.1.1"
+  # CNAME record example
+  - name: "example.org"
+    content: "example.com"
