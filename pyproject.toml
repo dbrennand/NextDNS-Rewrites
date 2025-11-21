@@ -1,6 +1,6 @@
 [project]
 name = "nextdns-rewrites"
-version = "0.1.0"
+version = "0.1.1"
 description = "Manage NextDNS rewrites."
 readme = "README.md"
 requires-python = ">=3.13"
