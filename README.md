@@ -54,8 +54,11 @@ rewrites:
   - name: "example.com"
     content: "1.1.1.1"
   # CNAME record example
-  - name: "example.org"
-    content: "example.com"
+  # Although it is possible to create CNAME records
+  # From my testing CNAME records don't actually resolve / work
+  # See: https://help.nextdns.io/t/p8yx4pk?r=p8y1ct8
+  # - name: "example.org"
+  #   content: "example.com"
 ```
 
 ## Usage
