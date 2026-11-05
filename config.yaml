@@ -1,6 +1,6 @@
 # NextDNS Rewrites Configuration
 # Note: API key should be set via NEXTDNS_API_KEY environment variable
-profile_name: "Main"
+profile: "Main"
 
 rewrites:
   # A record example
